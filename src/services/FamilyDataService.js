@@ -10,7 +10,7 @@ class FamilyDataService{
     }
 
     create(data){
-        return http.post("/family",data);
+        return http.post('/family',data);
     }
 
     update(id,data){
