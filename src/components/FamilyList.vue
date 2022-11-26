@@ -2,8 +2,8 @@
     <div class="list row">
       <div class="col-md-8">
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Search by name" v-model="name"/>
-          <div class="input-group-append">
+          <input type="text" class="form-control" placeholder="Search by surname or name" v-model="name"/>
+          <div class="input-group-append" me-2>
             <button class="btn btn-outline-secondary" type="button" @click="searchName">Search</button>
           </div>
         </div>
@@ -17,7 +17,7 @@
             :key="index"
             @click="setActiveFamily(family, index)"
           >
-            {{ family.name }}
+            {{ family.surname}} {{family.name }}
           </li>
         </ul>
       </div>

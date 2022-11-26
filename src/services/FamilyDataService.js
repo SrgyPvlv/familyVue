@@ -20,6 +20,10 @@ class FamilyDataService{
     delete(id){
         return http.delete(`/family/${id}`);
     }
+
+    findByName(name){
+        return http.get(`/family/?surnameorname=${name}`);
+    }
 }
 
 export default new FamilyDataService();
