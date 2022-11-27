@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav class="navbar navbar-expand navbar-dark bg-primary">
-      <RouterLink to="/" class="navbar-brand">SrgyPvlv</RouterLink>
+      <RouterLink to="/" class="navbar-brand ms-3">SrgyPvlv</RouterLink>
       <div class="navbar-nav mr-auto">
         <li class="nav-item">
           <RouterLink to="/family" class="nav-link">Family</RouterLink>

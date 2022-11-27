@@ -16,11 +16,11 @@
         </div>
         <div class="form-group">
           <label for="birthday">Birthday</label>
-          <input type="date" class="form-control" id="birthday" v-model="currentFamily.birthday"/>
+          <input type="date" class="form-control mb-3" id="birthday" v-model="currentFamily.birthday"/>
         </div>
       </form>
       
-      <button class="badge bg-danger mr-2" style="margin-right: 10px;" @click="deleteFamily"> Delete </button>
+      <button class="badge bg-danger mr-3" style="margin-right: 10px;" @click="deleteFamily"> Delete </button>
   
       <button type="submit" class="badge bg-secondary" @click="updateFamily"> Update </button>
       <p>{{ message }}</p>

@@ -49,7 +49,7 @@
           />
         </div>
   
-        <button @click="saveFamily" class="btn btn-success">Submit</button>
+        <button @click="saveFamily" class="btn btn-success mt-3">Submit</button>
       </div>
   
       <div v-else>

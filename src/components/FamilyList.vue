@@ -3,7 +3,7 @@
       <div class="col-md-8">
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Search by surname or name" v-model="name"/>
-          <div class="input-group-append" me-2>
+          <div class="input-group-append ms-3">
             <button class="btn btn-outline-secondary" type="button" @click="searchName">Search</button>
           </div>
         </div>
@@ -35,9 +35,6 @@
           </div>
           <div>
             <label><strong>Birthday:</strong></label> {{ currentFamily.birthday }}
-          </div>
-          <div>
-            <label><strong>Id:</strong></label> {{ currentFamily.id }}
           </div>
   
           <RouterLink :to="'/family/'+currentFamily.id" class="badge rounded-pill bg-info">Edit</RouterLink>
